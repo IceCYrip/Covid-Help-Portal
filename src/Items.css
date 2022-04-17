@@ -1,0 +1,23 @@
+.checkboxtext > input {
+  width: auto;
+}
+
+.checkboxtext {
+  float: left;
+  margin-left: 222px;
+  font-size: 17px;
+  font-family: alladin;
+}
+
+.stock > input {
+  float: right;
+  margin-right: 400px;
+  font-size: 17px;
+  font-family: alladin;
+  width: 100px;
+}
+
+input:disabled {
+  box-shadow: 0 0 0 0 black;
+  border-color: rgba(0, 0, 0, 0.1);
+}

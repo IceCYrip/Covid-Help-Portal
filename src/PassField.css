@@ -1,0 +1,14 @@
+.nameleft {
+  float: left;
+  font-size: 25px;
+  padding-left: 250px;
+}
+.textgetter {
+  float: right;
+  font-size: 25px;
+  padding-right: 250px;
+}
+
+.textfieldspass {
+  margin-bottom: 50px;
+}

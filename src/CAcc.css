@@ -1,0 +1,99 @@
+.bigcontainer {
+  display: flex;
+}
+
+.logo {
+  width: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  margin-right: 20px;
+  padding: 80px 50px;
+  width: fit-content;
+  font-family: contantia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Constantia;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+}
+
+.fstepcacc1 {
+  margin-top: 70px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.fstepcacc1 > h8 {
+  font-size: 27px;
+  color: black;
+}
+
+.fstepcacc1 > a {
+  color: black;
+}
+.sstepacc1 {
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top: 0px;
+
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.sstepacc1 > h8 {
+  font-size: 27px;
+}
+
+.fstepcacc1 > a:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.logoutcacc {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.logoutcacc > a {
+  color: rgb(82, 82, 255);
+}
+
+.logoutcacc > a:hover {
+  color: blue;
+}
+
+/* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- LEFT END -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+.rightaccounts {
+  margin-top: 20px;
+  padding-top: 50px;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  width: 1150px;
+  max-height: 650px;
+  font-family: Constantia;
+}
+.bookbtn > button {
+  font-size: 50px;
+}

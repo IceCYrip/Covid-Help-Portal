@@ -1,0 +1,111 @@
+.bigcontainer {
+  display: flex;
+}
+
+.logo {
+  width: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  margin-right: 20px;
+  padding: 80px 50px;
+  width: fit-content;
+  font-family: contantia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Constantia;
+  font-weight: 100;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+}
+
+.fsteps2 {
+  margin-top: 70px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.fsteps2 > h8 {
+  font-size: 23px;
+}
+
+.ssteps2 {
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top: 0px;
+}
+
+.ssteps2 > h9 {
+  font-size: 23px;
+}
+
+.tsteps2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.tsteps2 > h10 {
+  font-size: 23px;
+}
+
+/* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- LEFT END -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+.rights2 {
+  margin-top: 30px;
+  margin-right: auto;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 25px;
+  width: 1150px;
+  font-family: Constantia;
+  height: 560px;
+}
+
+h6 {
+  font-size: 1px;
+  text-align: center;
+}
+
+.info1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.info2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.rights2 > h10{
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+h10 > a {
+  color: blue;
+}

@@ -1,0 +1,30 @@
+.nameleft {
+  float: left;
+  font-size: 25px;
+  padding-left: 250px;
+}
+.textgetter {
+  float: right;
+  font-size: 25px;
+  padding-right: 250px;
+}
+
+.textfieldsnormal {
+  margin-bottom: 50px;
+}
+
+select {
+  font-family: constantia;
+  width: 260px;
+  font-size: 23px;
+}
+
+select:hover {
+  box-shadow: 0 0 11px rgba(255, 0, 0, 0.541);
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border: 1px solid rgba(255, 0, 0, 0.541);
+}

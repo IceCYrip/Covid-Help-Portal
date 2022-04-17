@@ -1,0 +1,26 @@
+.dashboard {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 1100px;
+  font-family: Alladin;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 6px;
+  border: 1px solid black;
+}
+
+tr {
+  background-color: rgb(255, 255, 255);
+}
+
+th {
+  background-color: red;
+  color: white;
+}

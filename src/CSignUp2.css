@@ -1,0 +1,88 @@
+.bigcontainer {
+  display: flex;
+}
+
+.logo {
+  width: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  margin-right: 20px;
+  padding: 80px 50px;
+  width: fit-content;
+  font-family: contantia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Constantia;
+  font-weight: 100;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+}
+
+.fstepc2 {
+  margin-top: 70px;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.fstepc2 > h8 {
+  font-size: 23px;
+}
+
+.sstepc2 {
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top: 0px;
+}
+
+.sstepc2 > h9 {
+  font-size: 23px;
+}
+
+.tstepc2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.tstepc2 > h10 {
+  font-size: 23px;
+}
+
+/* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- LEFT END -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+.right {
+  margin-top: 30px;
+  margin-right: auto;
+  padding-top: 100px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 25px;
+  width: 1140px;
+  font-family: Constantia;
+}
+
+.right > h10{
+  font-size: 18px;
+}

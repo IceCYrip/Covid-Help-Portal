@@ -1,0 +1,28 @@
+.nameleftsacc {
+  font-size: 25px;
+}
+.textgettersacc {
+  font-size: 25px;
+}
+
+.textfieldsnormalsacc {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.textgettersacc > input {
+  font-family: Constantia;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+input:hover {
+  box-shadow: 0 0 11px rgba(255, 0, 0, 0.541);
+  border-color: rgba(255, 0, 0, 0.356);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid red;
+}

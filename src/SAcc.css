@@ -1,0 +1,119 @@
+.rightsaccountsa {
+  margin-top: 30px;
+  margin-right: auto;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 25px;
+  width: 1150px;
+  font-family: Constantia;
+  height: 600px;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h6 {
+  font-size: 1px;
+  text-align: center;
+}
+
+.info1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.info2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.bookbtn > button {
+  font-size: 50px;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*- Item Section -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+.item1{
+  font-size: 17px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item1 > input {
+  margin-right: 400px;
+   font-size: 17px;
+   font-family: alladin;
+   width: 100px;
+ }
+ 
+ .item1 > label {
+   float: left;
+   margin-left: 400px;
+   font-size: 17px;
+   font-family: alladin;
+ }
+ 
+
+.item2{
+  font-size: 17px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item2 > input {
+  margin-right: 400px;
+   font-size: 17px;
+   font-family: alladin;
+   width: 100px;
+ }
+ 
+ .item2 > label {
+   float: left;
+   margin-left: 400px;
+   font-size: 17px;
+   font-family: alladin;
+ }
+ 
+
+.item3{
+  font-size: 17px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item3 > input {
+  margin-right: 400px;
+   font-size: 17px;
+   font-family: alladin;
+   width: 100px;
+ }
+ 
+ .item3 > label {
+   float: left;
+   margin-left: 400px;
+   font-size: 17px;
+   font-family: alladin;
+ }
+ 
+

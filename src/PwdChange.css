@@ -1,0 +1,13 @@
+.rightpwd {
+    margin-top: 30px;
+  background-color: whitesmoke;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 25px;
+  width: 1150px;
+  font-family: Constantia;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }

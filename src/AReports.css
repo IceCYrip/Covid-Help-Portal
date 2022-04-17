@@ -1,0 +1,184 @@
+.arstep1 {
+    margin-top: 70px;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+  
+  .arstep1 > h8 {
+    font-size: 27px;
+  }
+  
+  .arstep1 > a {
+    color: black;
+  }
+
+  .arstep1 > a:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+  }
+
+  .arstep2 {
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-top: 0px;
+  
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .arstep2 > h8 {
+    font-size: 27px;
+  }
+  
+  
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- LEFT END -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */ 
+
+.rightdashboardar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  width: 1120px;
+  height: 650px;
+  font-family: Constantia;
+  }
+
+.rightdashboardar > h1{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.reportsbox{
+  /* font-family: alladin; */
+  height: fit-content;
+  width: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.24),
+    0 17px 100px 0 rgba(0, 0, 0, 0.19);
+}
+
+.userreport > h10{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+label {
+  font-family: alladin;
+  font-weight: 600;
+}
+
+.userreport > h15{
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.customerreport > h10{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.customerreport > h9{
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+
+.customerreport > h15{
+  font-size: 18px;
+}
+
+.supplierreport > h10{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.supplierreport > h9{
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+
+.supplierreport > h15{
+  font-size: 18px;
+}
+
+.stockreport > h10{
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.stockreport > h9{
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+
+.stockreport > h15{
+  font-size: 18px;
+}
+
+.userreport{
+ display: flex;
+ flex-direction: column;     
+}
+
+.customerreport{
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+  
+.supplierreport{
+   display: flex;
+  flex-direction: column;
+}
+
+.stockreport{
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebyside1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sidebyside2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 190px;
+  margin-right: 110px;
+}
+      

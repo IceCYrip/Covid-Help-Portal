@@ -1,0 +1,9 @@
+.left-fieldssa {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-fieldssa {
+  display: flex;
+  flex-direction: row;
+}

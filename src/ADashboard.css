@@ -1,0 +1,106 @@
+.bigcontainer {
+  display: flex;
+}
+
+.logo {
+  width: 125px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  margin-right: 20px;
+  padding: 80px 50px;
+  width: fit-content;
+  font-family: contantia;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  font-family: Constantia;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+}
+
+.fstep1 {
+  margin-top: 70px;
+  text-align: center;
+  background-color: rgb(196, 196, 196);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.fstep1 > h8 {
+  font-size: 27px;
+}
+
+.sstep1 {
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-top: 0px;
+
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.sstep1 > h8 {
+  font-size: 27px;
+}
+.sstep1 > a {
+  color: black;
+}
+
+.sstep1 > a:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+
+.logout {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.logout > a {
+  color: rgb(82, 82, 255);
+}
+
+.logout > a:hover {
+  color: blue;
+}
+
+ /* -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- LEFT END -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */ 
+
+
+ .rightdashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  width: 1120px;
+  max-height: 650px;
+  font-family: Constantia;
+}
+.bookbtn > button {
+  font-size: 50px;
+}

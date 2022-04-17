@@ -1,0 +1,26 @@
+.login_btttn > button {
+  transition-duration: 0.4s;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: Constantia;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+  border-color: red;
+  border-width: 3px;
+  color: white;
+  background-color: rgb(255, 0, 0);
+}
+
+.login_btttn {
+  display: flex;
+  justify-content: center;
+}
+
+.login_btttn > button:hover {
+  border-color: rgb(255, 175, 175);
+  background-color: rgb(202, 0, 0);
+  cursor: pointer;
+}
