@@ -1,4 +1,4 @@
-import './App.css'; //GIT Push
+import './App.css'; //removed
 import LoginMain from "./LoginMain";
 import CSignUp1 from "./CSignUp1";
 import CSignUp2 from './CSignUp2';
