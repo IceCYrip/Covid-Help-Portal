@@ -41,20 +41,20 @@ router.post('/createdoctor',
 
 async (req, res) => {
     try {
-        let donor = await Donor.findOne({ name: req.body.name });
+        let doctor = await Doctor.findOne({ name: req.body.name });
 
-        if (donor) {
+        if (doctor) {
             return res.status(400).json({ error: 'Sorry a user with this email already exists' })
         }
-        donor = await Donor.create({
+        doctor = await Doctor.create({
             sno: req.body.sno,
             name: req.body.name,
-            bloodgroup: req.body.bloodgroup,
+            area: req.body.area,
             contact: req.body.contact,
 
         })
 
-        res.json({ donor })
+        res.json({ doctor })
 
     } catch (error) {
         console.error(error.message)

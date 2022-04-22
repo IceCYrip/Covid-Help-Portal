@@ -18,10 +18,6 @@ const DoctorSchema = new Schema({
         type: Number,
         required: true,
     },
-    type: {
-        type: String,
-        required: true,
-    },
 });
 
 const Doctor = mongoose.model('doctor', DoctorSchema);
