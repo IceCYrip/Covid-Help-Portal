@@ -9,8 +9,8 @@ const router = express.Router()
 
 
 
-//ROUTE 0: Create donor data using: POST "/api/dashboard/create". No login required
-router.post('/create',
+//ROUTE 0: Create donor data using: POST "/api/dashboard/createdonor". No login required
+router.post('/createdonor',
 
     async (req, res) => {
         try {
@@ -35,6 +35,32 @@ router.post('/create',
         }
     })
 
+
+    //ROUTE 0.1: Create donor data using: POST "/api/dashboard/createdoctor". No login required
+router.post('/createdoctor',
+
+async (req, res) => {
+    try {
+        let donor = await Donor.findOne({ name: req.body.name });
+
+        if (donor) {
+            return res.status(400).json({ error: 'Sorry a user with this email already exists' })
+        }
+        donor = await Donor.create({
+            sno: req.body.sno,
+            name: req.body.name,
+            bloodgroup: req.body.bloodgroup,
+            contact: req.body.contact,
+
+        })
+
+        res.json({ donor })
+
+    } catch (error) {
+        console.error(error.message)
+        res.status(500).send("Some Error Occured")
+    }
+})
 
 
 
