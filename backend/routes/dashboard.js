@@ -1,6 +1,7 @@
 const express = require('express');
 const Donor = require('../models/Donor');
 const Doctor = require('../models/Doctor');
+const Admin = require('../models/Admin');
 const router = express.Router()
 
 // var jwt = require('jsonwebtoken');
@@ -36,7 +37,7 @@ router.post('/createdonor',
     })
 
 
-    //ROUTE 0.1: Create donor data using: POST "/api/dashboard/createdoctor". No login required
+//ROUTE 0.1: Create donor data using: POST "/api/dashboard/createdoctor". No login required
 router.post('/createdoctor',
 
 async (req, res) => {
@@ -175,6 +176,32 @@ router.post('/doctordetails',
         }
     })
 
+
+
+//ROUTE 0.1: Create donor data using: POST "/api/dashboard/createadmin". No login required
+router.post('/createadmin',
+
+async (req, res) => {
+    try {
+        let admin = await Admin.findOne({ uname: req.body.uname });
+
+        if (admin) {
+            return res.status(400).json({ error: 'Sorry a user with this email already exists' })
+        }
+        admin = await Admin.create({
+            uname: req.body.uname,
+            password: req.body.password,
+            usertype: "admin"
+
+        })
+
+        res.json({ admin })
+
+    } catch (error) {
+        console.error(error.message)
+        res.status(500).send("Some Error Occured")
+    }
+})
 
 
 module.exports = router
