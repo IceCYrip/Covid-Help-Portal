@@ -19,14 +19,7 @@ const EditableRow = ({ doc,
 
         <tr className="edit">
             <td>
-                <input
-                    type="text"
-                    required="required"
-                    placeholder="Enter a name..."
-                    name="fullName"
-                    value={sno1}
-                    onChange={fnSno}
-                ></input>
+                {sno1}
             </td>
             <td>
                 <input
