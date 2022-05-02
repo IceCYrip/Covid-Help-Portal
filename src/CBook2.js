@@ -1,5 +1,4 @@
 import React, { Fragment, useContext, useEffect } from 'react'
-import RedBttn from './RedBttn'
 import './CBook2.css';
 import { Link, useNavigate } from 'react-router-dom'
 import Cbook2TableReadOnlyRow from './Cbook2TableReadOnlyRow'
