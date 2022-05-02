@@ -11,6 +11,8 @@ function CBook2() {
 
     const { booking, setBooking } = useContext(SignUpContext);
 
+const [suppliercount, setSupplierCount] = useState('0')
+
     useEffect(() => {
         SupplierTable();
     }, []);
@@ -36,6 +38,10 @@ function CBook2() {
             const sorted = await res.json();
             setSortedSuppliers(sorted);
 
+            if(sorted.length > 0){
+                setSupplierCount = sorted.length
+            }
+console.log(suppliercount)
 
             if (res.status === 401) {
                 goTo('/')
