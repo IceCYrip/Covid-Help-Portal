@@ -58,7 +58,6 @@ function App() {
 
 
 
-
   return (
 
     <SignUpContext.Provider value={{ details, setDetails, jsondonorupdate, setJsondonorUpdate, jsondoctorupdate, setJsondoctorUpdate, sortedsuppliers, setSortedSuppliers, booking, setBooking }}>
