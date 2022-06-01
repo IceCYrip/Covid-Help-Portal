@@ -91,53 +91,55 @@ function CDashboard() {
 
     }
 
-    return (
-        <div className="CDashboard">
-            <div className='bigcontainer'>
-                <div className="left">
-                    <img
-                        className="logo"
-                        src={"/images/Logo.png"}
-                        alt=""
-                    />
-
-                    <h3>Covid Help <br></br>Management System</h3>
 
 
+        return (
+            <div className="CDashboard">
+                <div className='bigcontainer'>
+                    <div className="left">
+                        <img
+                            className="logo"
+                            src={"/images/Logo.png"}
+                            alt=""
+                        />
 
-                    <div className='fstepcd1'>
-                        <br></br>
-                        <h8>Dashboard</h8><br></br>
-                        <br></br>
+                        <h3>Covid Help <br></br>Management System</h3>
+
+
+
+                        <div className='fstepcd1'>
+                            <br></br>
+                            <h8>Dashboard</h8><br></br>
+                            <br></br>
+                        </div>
+
+                        <div className='sstepcd1'>
+                            <br></br>
+                            <Link Link to="/c-account" style={{ textDecoration: 'none' }}><h8>Account</h8></Link>
+                            <br></br>
+                            <br></br>
+                        </div>
+
+                        <div className='logoutcd1'>
+                            <Link Link to="/" style={{ textDecoration: 'none' }}><h9>Logout</h9></Link>
+                        </div>
+
                     </div>
 
-                    <div className='sstepcd1'>
+                    <div className="c-dashboard">
+                        <h7>People willing to donate plasma</h7>
+                        <CandSDashboardTable jsondata={jsondonorupdate} doc={false} />
                         <br></br>
-                        <Link Link to="/c-account" style={{ textDecoration: 'none' }}><h8>Account</h8></Link>
-                        <br></br>
-                        <br></br>
-                    </div>
+                        <h7>Doctors on call</h7>
+                        <CandSDashboardTable jsondata={jsondoctorupdate} doc={true} />
 
-                    <div className='logoutcd1'>
-                        <Link Link to="/" style={{ textDecoration: 'none' }}><h9>Logout</h9></Link>
+                        <RedBttn textname={"Check Suppliers"} clickfn={GoToBooking} />
+
                     </div>
 
                 </div>
-
-                <div className="c-dashboard">
-                    <h7>People willing to donate plasma</h7>
-                    <CandSDashboardTable jsondata={jsondonorupdate} doc={false} />
-                    <br></br>
-                    <h7>Doctors on call</h7>
-                    <CandSDashboardTable jsondata={jsondoctorupdate} doc={true} />
-
-                    <RedBttn textname={"Check Suppliers"} clickfn={GoToBooking} />
-
-                </div>
-
-            </div>
-        </div >
-    )
+            </div >
+        )
 }
 
 export default CDashboard
