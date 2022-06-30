@@ -1,5 +1,5 @@
 .bigcontainer {
-  display: flex;
+  padding-top: 2vh;
 }
 
 .logo {
@@ -89,14 +89,16 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-right: auto;
-  padding-top: 45px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   padding-left: 15px;
   padding-right: 15px;
   background-color: whitesmoke;
   border-radius: 25px;
   width: 1120px;
+  height: fit-content;
   font-family: Constantia;
 }
 .bookbtn > button {
