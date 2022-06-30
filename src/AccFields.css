@@ -19,7 +19,7 @@
 
 input:hover {
   box-shadow: 0 0 11px rgba(255, 0, 0, 0.541);
-  border-color: rgba(255, 0, 0, 0.356);
+  border-color: rgba(255, 0, 0, 0.4);
 }
 
 input:focus {
